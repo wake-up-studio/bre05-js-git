@@ -1,0 +1,13 @@
+@media screen and (min-width: 992px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 30vh);
+        gap: 1em;
+        justify-content: center;
+    }
+    
+    article{
+        background-color: #f7b801;
+        height: 30vh;
+    }
+}
