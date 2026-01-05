@@ -1,9 +1,5 @@
-
-
 /****************************************************/
-
 /*MEDIA QUERY*/
-
 /****************************************************/
 
 @media screen and (max-width: 768px) {
@@ -16,5 +12,20 @@
     article{
         background-color:#3d348b;
         height:50vh;
+    }
+}
+
+@media screen and (768px <= width <= 992px) {
+    main{
+        display:grid;
+        grid-template-columns: repeat(2,30vh);
+        gap:1em;
+        justify-content:center;
+    }
+    
+    }
+    article {
+        background-color:#a31621;
+        height:30vh;
     }
 }
