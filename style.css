@@ -1,0 +1,20 @@
+
+
+/****************************************************/
+
+/*MEDIA QUERY*/
+
+/****************************************************/
+
+@media screen and (max-width: 768px) {
+    main{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:1em;
+        
+    }
+    article{
+        background-color:#3d348b;
+        height:50vh;
+    }
+}
